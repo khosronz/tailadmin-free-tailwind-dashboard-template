@@ -5,19 +5,19 @@ const chart01 = () => {
   const chartOneOptions = {
     series: [
       {
-        name: "Product One",
+        name: "محصول ۱",
         data: [23, 11, 22, 27, 13, 22, 37, 21, 44, 22, 30, 45],
       },
 
       {
-        name: "Product Two",
+        name: "محصول ۲",
         data: [30, 25, 36, 30, 45, 35, 64, 52, 59, 36, 39, 51],
       },
     ],
     legend: {
       show: false,
       position: "top",
-      horizontalAlign: "left",
+      horizontalAlign: "right",
     },
     colors: ["#3C50E0", "#80CAEE"],
     chart: {
@@ -99,18 +99,18 @@ const chart01 = () => {
     xaxis: {
       type: "category",
       categories: [
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
+        "فروردین",
+        "اردیبهشت",
+        "خرداد",
+        "تیر",
+        "مرداد",
+        "شهریور",
+        "مهر",
+        "آبان",
+        "آذر",
+        "دی",
+        "بهمن",
+        "اسفند",
       ],
       axisBorder: {
         show: false,

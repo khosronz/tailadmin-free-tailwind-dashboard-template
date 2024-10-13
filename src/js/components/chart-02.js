@@ -5,11 +5,11 @@ const chart02 = () => {
   const chartTwoOptions = {
     series: [
       {
-        name: "Sales",
+        name: "فروش",
         data: [44, 55, 41, 67, 22, 43, 65],
       },
       {
-        name: "Revenue",
+        name: "درآمد",
         data: [13, 23, 20, 8, 13, 27, 15],
       },
     ],
@@ -53,7 +53,7 @@ const chart02 = () => {
     },
 
     xaxis: {
-      categories: ["M", "T", "W", "T", "F", "S", "S"],
+      categories: ["شنبه", "یکشنبه", "دوشنبه", "سه شنبه", "چهارشنبه", "پنجشنبه", "جمعه"],
     },
     legend: {
       position: "top",
